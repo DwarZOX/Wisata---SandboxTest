@@ -11,7 +11,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { formatPrice, formatTimestamp, parseHTMLString } from "@app/utils/helper";
 import { request } from "@app/utils/request";
 import Layer from "@app/components/Maps/Layer";
-import Maps from "@app/components/Maps";
+import Maps from "../components/Maps";
 import { Marker } from "react-leaflet";
 
 const DetailWisata = () => {
